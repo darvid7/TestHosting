@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta name='viewport', content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>New Words</title>
+</head>
+
+<body ng-controller="MyController">
+    <h1>Learn New Words with Gifs</h1>
+    Learning words can be hard. But Gifs are fun! <br>Learn new words using Gifs and keep a list of words you know.
+    <br>To learn a new word type it in the box below and hit "Save word"
+    <br>To update your list of known words hit "Update List"
+    <br>To load a gif of a word simply click on the word from your list of known words
+    <br>List of known words:
+
+    <div ng-repeat="w in words" ng-click="showGifs($event)"> {{w.word}} </div>
+
+    <div>
+        <input ng-model="newWord">      <!-- model means data, now this is accessible to angular/js -->
+        <button ng-click="saveThisWord()">Save Word</button>
+        <button ng-click="getSavedWords()">Update List</button>
+    </div>
+
+    <img ng-src="{{gifUrl}}">
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="index.js"></script> <!-- better to put script at bottom so everything in your website will load first -->
+
+</body>
+</html>
