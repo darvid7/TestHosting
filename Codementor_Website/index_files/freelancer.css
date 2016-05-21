@@ -11,8 +11,10 @@ p {
   font-size: 20px;
 }
 p.small {
-  font-size: 16px;
+  font-size: 18px;
 }
+
+
 a,
 a:hover,
 a:focus,
@@ -21,19 +23,19 @@ a.active {
   color: #18bc9c;
   outline: none;
 }
-h1,
+h4,
 h2,
 h3,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
 }
 
-h4 {
+h1 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 hr.star-light,
 hr.star-primary {
@@ -413,14 +415,56 @@ footer .footer-below {
 }
 
 .who{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   background-color: lightcyan;
 }
 
 .bootcamp{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   background-color: lightblue;
 }
 
 .whatget{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+
   background-color: lightblue;
 }
 
+
+.free{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: lightcyan;
+
+
+}
+
+.express_interest{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: cornflowerblue;
+  color: #000000;
+}
+
+
+.intro-para{
+  font-size: 22px;
+}
+
+@media (max-width: 480px) {
+  body{
+    font-size: 12px}
+  .intro-para{
+    font-size: 13px;
+  }
+
+}
