@@ -23,11 +23,9 @@ a.active {
   color: #18bc9c;
   outline: none;
 }
-h4,
-h2,
-h3,
-h5,
-h6 {
+
+h1,h2,h3,h4,h5,h6
+{
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
@@ -460,11 +458,107 @@ footer .footer-below {
   font-size: 22px;
 }
 
+/* CSS for v2 starts here, design from Rayen */
+
 @media (max-width: 768px) {
   body{
     font-size: 12px}
+
+  .section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
   .intro-para{
     font-size: 13px;
   }
 
+
+}
+
+.white{
+  background-color: white;
+}
+
+.yellow{
+  background-color: #F2E6B1;
+}
+
+.grey{
+  background-color: #DDDDDD;
+}
+
+.body{
+  color: red;
+  background-color: red;
+}
+
+.header_text_large{
+  font-size: 100px;
+}
+
+.header_text_small{
+  font-size: 50px;
+}
+
+header{
+  background-image: url("added/cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1280px 635px;
+
+  height: 635px;
+
+  color: red;
+}
+
+h2{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.secondary_text{
+  font-size: 18px;
+}
+
+.tertiary_text{
+  font-size: 14px;
+}
+
+.quaternary_text{
+  font-size: 12px;
+}
+
+#header_text{
+  font-size: 50px;
+}
+
+#img_padding{
+  padding-bottom: 10px;
+}
+
+
+/* .index or #page-top can be used to stylize entire page */
+.index{
+  color: red;
+
+}
+
+#page-top{
+  color: #353535;
+}
+
+section{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#section{
+  background-color: greenyellow;
 }
