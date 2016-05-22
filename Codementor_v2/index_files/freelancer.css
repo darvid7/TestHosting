@@ -494,11 +494,18 @@ footer .footer-below {
 }
 
 .header_text_large{
-  font-size: 100px;
+  font-size: 80px;
+  color: white;
+  background-color: orange;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 .header_text_small{
-  font-size: 50px;
+  font-size: 40px;
+  color: white;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 header{
