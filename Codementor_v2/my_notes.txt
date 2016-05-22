@@ -1,0 +1,29 @@
+http://stackoverflow.com/questions/6939864/what-is-the-difference-between-section-and-div
+
+<section> put bootstrap divs inside </section>
+
+The section element is not a generic container element. When an element is needed for styling purposes or as a convenience for scripting, authors are encouraged to use the div element instead. A general rule is that the section element is appropriate only if the element's contents would be listed explicitly in the document's outline.
+
+Chuck it in section so can style the bits as needed
+
+--
+
+<section/div id="unq_id" class="class_name" > <close>
+
+ids are unique can be used to target that particular element to style it etc
+
+classes are not unique i.e. container, circle etc can be applied to > 1 element
+
+targeting them in css
+
+ #unq_id{
+ }
+
+ .class_name{
+ }
+
+ --
+
+ The <span> tag is used to group inline-elements in a document.
+
+ The <span> tag provides no visual change by itself.
