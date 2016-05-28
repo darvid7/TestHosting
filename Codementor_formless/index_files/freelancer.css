@@ -598,6 +598,14 @@ section{
   background-color: greenyellow;
 }
 
-#linking{
-  color: pink;
+a:link{
+  color: red;
+}
+
+a:visited {
+  color: red;
+}
+
+a:active{
+  color: black;
 }
